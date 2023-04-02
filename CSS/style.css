@@ -14,7 +14,7 @@ html,body{
 }
 
 .notes__side-bar {
-    border-right: 5px solid rgb(0, 17, 116);
+    border-right: 5px solid rgba(6, 10, 243, 0.856);
     flex-shrink: 0;
     overflow-y: auto;
     padding: 1em;
@@ -23,9 +23,9 @@ html,body{
 
 .notes__add{
     background-color: rgba(231, 84, 231, 0.911);
-    border: none;
+   border: none;
     border-radius: 7px;
-    color: rgb(0, 0, 0);
+    color: rgb(247, 243, 243);
     cursor: pointer;
     font-size: 1.25em;
     font-weight: bold;
@@ -40,7 +40,16 @@ html,body{
 
 .notes__list-item{
     cursor: pointer;
+    color: rgb(255, 242, 242);
+    background: rgba(83, 11, 143, 0.589);
+    border-radius: 7px;
+    font-weight: bold;
+     margin: 15px;
+    padding: 10px;
+    
+    
 }
+  
 
 .notes__small-title {
     font-size: 1.2rem;
@@ -48,9 +57,10 @@ html,body{
 
 
 .notes__list-item--selected {
-    background: rgb(156, 157, 233);
+    background: rgba(182, 26, 112, 0.836);
     border-radius: 7px;
     font-weight: bold;
+    
 }
 .notes__small-title,
 .notes__small-updated {
@@ -63,7 +73,7 @@ html,body{
 
 
 .notes__small-updated {
-    color: rgb(87, 78, 78);
+    color: rgb(9, 10, 12);
     font-style: italic;
     text-align: right;
 }
@@ -72,6 +82,8 @@ html,body{
     border: none;
     outline: none;
     width: 100%;
+    color: rgb(19, 19, 18);
+   
 }
 
 .notes__preview {
@@ -84,7 +96,7 @@ html,body{
 .notes__title {
     font-size: 3em;
     font-weight: bold;
-    background:  rgba(255, 255, 255, 0.945);
+    background:  rgba(202, 201, 201, 0.836);
     border-radius: 9px;
 }
 
@@ -94,6 +106,7 @@ html,body{
     line-height: 1.5;
     margin-top: 2em;
     resize: none;
-    background:rgba(255, 255, 255, 0.945);
+    background:rgba(202, 201, 201, 0.884);
     border-radius: 9px;
 }
+
